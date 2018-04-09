@@ -161,3 +161,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-man Homecoming', 201
 
 UPDATE movies SET show_time = '21:00' WHERE title = 'Guardians of the Galaxy';
 UPDATE movies SET show_time = '22.00' WHERE title = 'Guardians of the Galaxy 2';
+
+DELETE FROM movies WHERE title IN ('Iron Man', 'Iron Man 2');
